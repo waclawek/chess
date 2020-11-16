@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0d63877-7941-4779-9793-e8efad7bd9a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chess/gui/GameSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/JChess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/JChess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/gui/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/gui/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/player/ai/MiniMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/player/ai/MiniMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/player/ai/StandardBoardEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/player/ai/StandardBoardEvaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/JChess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/JChess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardDirection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardDirection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardDirection$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardDirection$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardDirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$BoardPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$MoveLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$MoveLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$TilePanel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$TilePanel$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$TilePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$TilePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table$TilePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table$TilePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/gui/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/gui/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/pieces/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/pieces/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/player/ai/MiniMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/player/ai/MiniMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chess/player/ai/StandardBoardEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chess/player/ai/StandardBoardEvaluator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/JChess.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="G:\Mój dysk\04_SDA\JchessExport" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YGfxIJDjFUHr2OFPSnvo6YxEoq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/chess" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JChess zip" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.chess.board" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="chess.board.BoardUtils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Mój dysk\04_SDA\JChess\art\pieces" />
+      <recent name="G:\Mój dysk\04_SDA\JChess" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chess.player.ai" />
+      <recent name="chess.player" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JChess">
+    <configuration name="JChess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chess.JChess" />
+      <module name="JChess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JChess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.chess.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.chess.board" />
+      <option name="MAIN_CLASS_NAME" value="test.chess.board.TestBoard" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBoard.testFoolsMate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JChess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.chess.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.chess.board" />
+      <option name="MAIN_CLASS_NAME" value="test.chess.board.TestBoard" />
+      <option name="METHOD_NAME" value="testFoolsMate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JChess" />
+        <item itemvalue="JUnit.TestBoard.testFoolsMate" />
+        <item itemvalue="JUnit.TestBoard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0d63877-7941-4779-9793-e8efad7bd9a4" name="Default Changelist" comment="" />
+      <created>1582574096366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582574096366</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit 3">
+      <created>1582847418351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582847418351</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit 03032020">
+      <created>1583268421912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583268421912</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit 03032020 finalyy first gui">
+      <created>1584142104245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584142104245</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit 03032014">
+      <created>1584225814374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584225814374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit 18032020">
+      <created>1584563546439</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584563546439</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/chess" />
+    </ignored-roots>
+    <MESSAGE value="commit 3" />
+    <MESSAGE value="commit 03032020" />
+    <MESSAGE value="commit 03032020 finalyy first gui" />
+    <MESSAGE value="commit 03032014" />
+    <MESSAGE value="commit 18032020" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 18032020" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1584810292961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584810292961" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585171149995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584895630981" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1585171149995" />
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1585481084615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585400476600" />
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585481084615" />
+    <state x="499" y="189" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584892712887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="189" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584892712887" />
+    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584899301464">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584899301464" />
+    <state x="566" y="273" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1582743015838" />
+    <state x="485" y="123" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1582662020009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="123" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1582662020009" />
+    <state x="524" y="116" key="#xdebugger.evaluate" timestamp="1584880782146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="116" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584880782146" />
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1584563514578">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584563514578" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584225812237" />
+    <state x="549" y="140" key="FileChooserDialogImpl" timestamp="1585503031705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="140" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585412368225" />
+    <state x="549" y="140" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585503031705" />
+    <state width="1492" height="261" key="GridCell.Tab.0.bottom" timestamp="1585669075845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585255149246" />
+    <state width="1492" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585669075845" />
+    <state width="1492" height="261" key="GridCell.Tab.0.center" timestamp="1585669075845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="138" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585255149246" />
+    <state width="1492" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585669075845" />
+    <state width="1492" height="261" key="GridCell.Tab.0.left" timestamp="1585669075845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="138" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585255149245" />
+    <state width="1492" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585669075845" />
+    <state width="1492" height="261" key="GridCell.Tab.0.right" timestamp="1585669075845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="138" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585255149246" />
+    <state width="1492" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585669075845" />
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom" timestamp="1585669075846">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584884647972" />
+    <state width="1492" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585669075846" />
+    <state width="1492" height="261" key="GridCell.Tab.1.center" timestamp="1585669075845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584884647972" />
+    <state width="1492" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585669075845" />
+    <state width="1492" height="261" key="GridCell.Tab.1.left" timestamp="1585669075845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584884647972" />
+    <state width="1492" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585669075845" />
+    <state width="1492" height="261" key="GridCell.Tab.1.right" timestamp="1585669075845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584884647972" />
+    <state width="1492" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585669075845" />
+    <state x="439" y="112" key="NewModule_or_Project.wizard" timestamp="1585412396001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="112" key="NewModule_or_Project.wizard/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585412396001" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1585413006826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1585413006826" />
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585388699715" />
+    <state x="531" y="18" key="Vcs.Push.Dialog.v2" timestamp="1584563555717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="531" y="18" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584563555717" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584225889905" />
+    <state x="968" y="194" key="chooseDestDirectoryDialog" timestamp="1584137812772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="968" y="194" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1584137812772" />
+    <state x="408" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582921890068">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1582921890068" />
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584893035557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584893035557" />
+    <state x="209" y="109" key="new project wizard" timestamp="1583573545023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583573545023" />
+    <state x="710" y="51" key="refactoring.ChangeSignatureDialog" timestamp="1585168667353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="710" y="51" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585168667353" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584734159119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584475944396" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584734159119" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585420343499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1584275443146" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585420343499" />
+  </component>
+</project>
